@@ -1,0 +1,39 @@
+---
+title: "Clustering algorithms for meta-analysis in ecology and evolution"
+date: "`r Sys.Date()`"
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    theme: simplex
+    embed-resources: true
+    code-fold: show
+    code-tools: true
+    number-sections: true
+output-file: "index.html"
+crossref: 
+  fig-title: Figure     # (default is "Figure")
+  tbl-title: Table     # (default is "Table")
+  title-delim: —     # (default is ":")
+  fig-prefix: Fig.   # (default is "Figure")
+  tbl-prefix: Tab.    # (default is "Table")
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, setup}
+#| label: setup
+#| echo: false
+#| include: false
+
+# Load the packages we need
+	#install.packages("pacman")
+	pacman::p_load(flextable, tidyverse, here)
+
+```
+# Introduction
+
+# Clustering algorithms
+
+# References
