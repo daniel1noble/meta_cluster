@@ -34,6 +34,17 @@ editor_options:
 ```
 # Introduction
 
+```{r, data}
+#| label: data
+#| message: false
+#| warning: false
+
+# Load in the data. Use the 'here' package
+
+data <- read.csv(here::here("data", "Book1.csv"))
+
+```
+
 # Clustering algorithms
 
 # References
